@@ -1,5 +1,6 @@
 import nltk
 nltk.download("punkt_tab")
+nltk.download("wordnet")
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
