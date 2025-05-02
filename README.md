@@ -22,9 +22,9 @@ VokaBot is a simple AI-based customer service chatbot designed to provide inform
 
 ## Features
 
-- Create automatic reports in PDF format.
-- Automatically predict water quality categories with AI.
-- Download PDF feature to generate print-ready reports.
+- Answer your questions automatically and naturally.
+- Has the latest information even though some topics are incomplete because they are still in beta version.
+- Always available 24/7 without time limits and questions.
 
 ## Tech Stack
 
