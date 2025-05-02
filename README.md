@@ -51,16 +51,8 @@ We welcome contributions to this project. Please follow these steps to contribut
 
 ## Model Metrics & Confusion Matrix
 
-- **Model Metrics**
-
-1. Accuracy score: 0.6121814791796146
-2. Precision score: 0.5228136882129277
-3. Recall score: 0.4243827160493827
-4. F1-Score: 0.4684838160136286
-
-- **Confusion Matrix**
-
-<img src ="./Asset/confusionmatrix.png" width="40%">
+- Accuracy score: 0.9952
+- Loss: 0.0068
 
 ## Reference
 
