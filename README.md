@@ -61,4 +61,5 @@ https://www.codepolitan.com/blog/membangun-chatbot-dengan-python
 
 ## Copyright
 
-© 2025 Rafli Damara.
+© 2025 Rafli
+Damara.
