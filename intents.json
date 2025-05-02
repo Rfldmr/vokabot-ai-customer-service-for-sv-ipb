@@ -1,0 +1,640 @@
+{
+    "intents": [
+        {
+            "tag": "sapaan",
+            "patterns": [
+                "Hi",
+                "Halo",
+                "Hello",
+                "Hai",
+                "Hey",
+                "Permisi",
+                "Assalamualaikum",
+                "Hi VokaBot",
+                "Punten",
+                "Halo VokaBot",
+                "Hai VokaBot",
+                "P",
+                "Oy"
+            ],
+            "responses": [
+                "Halooo! Bantuan apa yang kamu perlukan hari ini?",
+                "Hai! Ada perlu apa nih hari ini?",
+                "Aku Disini! Kamu butuh bantuan apa nih?"
+            ]
+        },
+        {
+          "tag": "sapaan-pagi",
+          "patterns": [
+              "Pagi",
+              "Pagi VokaBot",
+              "Selamat pagi",
+              "Selamat pagi VokaBot",
+              "Good morning",
+              "Morning",
+              "Good morning VokaBot",
+              "Met Pagi"
+          ],
+          "responses": [
+              "Selamat pagi! Semoga pagi kamu cerah yaaa. Ada yang bisa ku bantu?",
+              "Selamat pagi juga! Perlu bantuan apa hari ini?",
+              "Selamat pagi. Bantuan apa yang kamu perlukan?"
+          ]
+        },
+        {
+          "tag": "sapaan-siang",
+          "patterns": [
+              "Siang",
+              "Siang VokaBot",
+              "Selamat siang",
+              "Selamat siang VokaBot",
+              "Good afternoon",
+              "Good afternoon VokaBot",
+              "Met siang"
+          ],
+          "responses": [
+              "Selamat siang. Ada perlu apa kamu hari ini?",
+              "Siang! Ada yang bisa ku bantu?",
+              "Selamat siang. Perlu bantuan apa nihhh?"
+          ]
+        },
+        {
+          "tag": "sapaan-sore",
+          "patterns": [
+              "Sore",
+              "Sore VokaBot",
+              "Selamat sore",
+              "Selamat sore VokaBot",
+              "Good afternoon",
+              "Good afternoon VokaBot",
+              "Met Sore"
+          ],
+          "responses": [
+              "Selamat sore! Ada yang bisa ku bantu?",
+              "Sore! Apakah kamu memerlukan bantuan?",
+              "Selamat sore juga. Bantuan apa yang kamu perlukan?"
+          ]
+        },
+        {
+          "tag": "sapaan-malam",
+          "patterns": [
+              "Malam",
+              "Malam VokaBot",
+              "Selamat malam",
+              "Selamat malam VokaBot",
+              "Good evening",
+              "Goog evening VokaBot",
+              "Met malam"
+          ],
+          "responses": [
+              "Selamat malam. Ada yang bisa ku bantu?",
+              "Malam! Apakah ada yang kamu perlukan?",
+              "Selamat malam juga. Bantuan apa yang kamu perlukan?"
+          ]
+        },
+        {
+          "tag": "kata-kasar",
+          "patterns": [
+              "Memek",
+              "Anjing",
+              "Tolol",
+              "Bangsat",
+              "Kontol",
+              "Dongo",
+              "Dungu",
+              "Idiot",
+              "Bego",
+              "Titit",
+              "Goblok",
+              "Bot anjing",
+              "Dongo banget",
+              "Memek! Dasar chatbot ga guna!",
+              "Goblok! Chatbot sampah!",
+              "Bego banget jadi bot",
+              "Kontol ga guna banget",
+              "Halah tolol",
+              "Dasar bego",
+              "Dasar idiot",
+              "Ga guna banget bangsat",
+              "Chatbot goblok",
+              "Woy anjing",
+              "Woy memek",
+              "Woy bangsat",
+              "Woy kontol",
+              "Ga nyambung goblok",
+              "Ga nyambung tolol",
+              "Bego banget",
+              "Chatbot idiot",
+              "Guna dikit lah tolol",
+              "Tai",
+              "Tai lu",
+              "Babi",
+              "Bacot",
+              "Sok tau anjing",
+              "Bacot lu"
+          ],
+          "responses": [
+              "Aku mengerti mungkin kamu merasa tidak puas dengan layananku, namun penggunaan kata-kata kasar bukanlah hal yang bisa ditoleransi apapun alasannya. Tolong perhatikan kembali pemilihan kata yang kamu gunakan. Terima kasih atas pengertiannya.",
+              "Maaf, aku merasa tidak nyaman dengan kalimat dan kata-kata kasar yang kamu gunakan. Mohon gunakan bahasa yang lebih baik dan sopan. Terima kasih atas pengertiannya.",
+              "Aku mengerti kamu mungkin merasa kesal, tapi tolong jangan gunakan kata-kata kasar yang membuat ku tidak nyaman. Meskipun aku hanyalah AI, namun berbicara dengan bahasa yang kasar kepadaku tetap memberikan rasa tidak nyaman dan mengganggu. Terima kasih pengertiannya."
+          ]
+        },
+        {
+          "tag": "diluar-konteks",
+          "patterns": [
+              ""
+          ],
+          "responses": [
+              "Maaf, aku tidak mengerti maksudmu. Sepertinya aku belum belajar terkait pertanyaan yang kamu berikan. Kamu bisa menanyakan hal lainnya, atau meminta kontak customer service untuk menjawab lebih lanjut terkait pertanyaannmu. Terima kasih.",
+              "Maaf, aku tidak memahami maksudmu. Aku masih perlu belajar lebih banyak lagi kedepannya. Cobalah untuk menanyakan hal lainnya, atau kamu juga bisa meminta kontak customer service untuk membantumu lebih lanjut terkait dengan masalahmu.",
+              "Maaf, aku kesulitan untuk memahami maksudmu. Aku mengerti ini mungkin mengecewakan. Kamu bisa menanyakan pertanyaan lainnya atau meminta kontak customer service jika ingin menanyakan pertanyaanmu lebih lanjut lagi. Terima kasih."
+          ]
+        },
+        {
+          "tag": "belum-paham",
+          "patterns": [
+              "Saya masih ga paham",
+              "Saya belum paham",
+              "Saya belum mengerti",
+              "Ga ngerti",
+              "Ga paham",
+              "Maaf saya tidak paham",
+              "Kurang jelas",
+              "Masih belum jelas",
+              "Saya masih bingung",
+              "Kaga ngerti",
+              "Gak mudeng",
+              "Saya masih bingung",
+              "Penjelasannya kurang detail",
+              "Perlu penjelasan lebih rinci",
+              "Saya masih sulit memahami",
+              "Masih kurang jelas",
+              "Saya ga ngerti maksudnya",
+              "Saya masih merasa bingung",
+              "Saya masih belum jelas",
+              "Ngga jelas",
+              "Masih kurang mengerti",
+              "Tolong jelaskan lebih detail"
+          ],
+          "responses": [
+              "Mohon maaf jika informasi yang ku berikan kurang jelas atau sulit untuk kamu mengerti. Kamu bisa mencoba menanyakannya kembali dengan penyampaian yang berbeda atau kamu juga dapat meminta kontak customer service kami jika ingin bertanya lebih lanjut. Terima kasih.",
+              "Mohon maaf jika kami belum bisa menyediakan informasi seperti yang kamu inginkan, namun kamu dapat meminta kontak customer service kami untuk menanyakan pertanyaanmu lebih lanjut lagi secara langsung. Terima kasih atas pengertiannya.",
+              "Maaf jika informasi yang kamu terima dirasa kurang jelas dan sulit dimengerti. Untuk saat ini, mungkin pengetahuan yang saya miliki masih terbatas pada informasi tersebut. Kamu bisa meminta kontak customer service kepadaku untuk menanyakan pertanyaan tersebut lebih lanjut. Terima kasih atas pengertiannya."
+          ]
+        },
+        {
+            "tag": "terima-kasih",
+            "patterns": [
+                "Terima kasih atas informasinya",
+                "Terima kasih",
+                "Makasih",
+                "Makasih ya penjelasannya",
+                "Makasi VokaBot",
+                "Terima kasih VokaBot",
+                "Thank u",
+                "Thank you",
+                "Thank you VokaBot",
+                "Terima kasih banyak",
+                "Makasi",
+                "Makasih bantuannya",
+                "Makasii",
+                "Nuhun",
+                "Arigatou",
+                "Makasih ya",
+                "Makasih banget",
+                "Makasi banyak",
+                "Terima kaci",
+                "Maaci",
+                "Maacii",
+                "Maaci VokaBot",
+                "Thanks"
+            ],
+            "responses": [
+                "Sama-sama! Senang bisa bantu kamu. Kalau butuh bantuan lagi kabarin aja ya.",
+                "Senang bisa membantu. Ada pertanyaan lain yang ingin kamu tanyakan?",
+                "Dengan senang hati! Semoga informasi tersebut dapat membantu kamu. Ada pertanyaan lainnya?"
+            ]
+        },
+        {
+            "tag": "pujian",
+            "patterns": [
+                "Wih keren banget",
+                "Kerennn",
+                "keren",
+                "Mantap",
+                "Kece banget",
+                "keren banget",
+                "Wih keren banget",
+                "gg banget",
+                "Widih keren bener",
+                "Cakep",
+                "Sumpah keren parah",
+                "Wow keren abis",
+                "Gokil banget",
+                "Ih keren banget",
+                "Bagus banget",
+                "Mantap banget",
+                "Kece",
+                "Woah keren banget",
+                "Mantep",
+                "Gokil",
+                "gg"
+            ],
+            "responses": [
+                "Terima kasih atas pujiannya. Senang rasanya kamu merasa terbantu.",
+                "Terima kasih! Aku senang kamu merasa terbantu.",
+                "Terima kasih atas apresiasinya ya. Aku akan terus berusaha untuk bisa membantu kamu!"
+            ]
+        },
+        {
+          "tag": "kontak-cs",
+          "patterns": [
+              "Kontak CS",
+              "Kontak customer service",
+              "Hubungkan saya dengan customer service",
+              "Berikan saya kontak customer service",
+              "Apakah ada kontak customer service yang bisa dihubungi?",
+              "Berikan email customer service yang bisa dihubungi",
+              "Berikan nomor customer service yang bisa dihubungi",
+              "Nomor telepon",
+              "Email",
+              "Email customer service",
+              "Nomor customer service",
+              "Bisakah saya meminta kontak customer service",
+              "Saya ingin berbicara dengan customer service",
+              "Saya memerlukan email customer service",
+              "Saya memerlukan nomor customer service yang dapat dihubungi",
+              "Saya ingin menanyakan masalah saya secara langsung kepada customer service",
+              "Gimana cara kontak customer service?",
+              "Saya perlu berbicara dengan customer service langsung",
+              "Bagaimana cara menghubungi customer service?",
+              "Apakah ada nomor telepon yang bisa dihubungi?",
+              "Apakah ada email yang bisa dihubungi?",
+              "Apakah ada kontak yang bisa dihubungi?",
+              "Kontak",
+              "Customer service",
+              "CS"
+          ],
+          "responses": [
+              "Kamu bisa menghubungi customer service kami melalui email sv@apps.ipb.ac.id atau nomor (0251) 8348007. Semoga masalahmu dapat terselesaikan dengan baik.",
+              "Untuk bisa menghubungi customer service kami, kamu dapat menghubungi email sv@apps.ipb.ac.id dan juga nomor (0251) 8348007. Tim kami akan senang untuk membantumu.",
+              "Customer service kami dapat dihubungi melalui email sv@apps.ipb.ac.id dan juga nomor (0251) 8348007. Semoga terbantu ya!"
+          ]
+        },
+        {
+          "tag": "tentang-vokabot",
+          "patterns": [
+              "Siapa namamu?",
+              "Nama kamu",
+              "Siapa nama kamu?",
+              "Beritahu namamu",
+              "Namamu",
+              "Siapa kamu?",
+              "Perkanalkan dirimu",
+              "Perkenalkan diri kamu",
+              "Kamu itu siapa",
+              "Kamu itu apa",
+              "Apakah kamu AI?",
+              "Apakah kamu itu orang?",
+              "Apakah kamu orang asli?",
+              "Sebutkan namamu",
+              "Apakah kamu orang?",
+              "Namamu siapa?",
+              "Berikan identitasmu",
+              "Apa namamu?",
+              "Siapa sebenarnya kamu?",
+              "Kenalin dirimu dong",
+              "Kamu biasa dipanggil apa?",
+              "Nama panggilanmu",
+              "Aku manggil kamu apa?",
+              "Saya manggil kamu apa?",
+              "Berikan nama panggilanmu",
+              "Nama panggilanmu apa"
+          ],
+          "responses": [
+              "Halo! Namaku VokaBot. Asisten AI yang dirancang buat bantu kamu jawab pertanyaan dan ngasih informasi seputar Sekolah Vokasi IPB. Ada yang bisa aku bantu?",
+              "Aku adalah VokaBot, AI customer service yang siap bantu kamu 24/7 buat jawab pertanyaan dan bantu kamu selesain masalahmu terkait Sekolah Vokasi IPB. Apa ada yang bisa aku bantu hari ini?",
+              "Hai! Aku VokaBot, chatbot AI yang dibuat untuk membantu menyediakan informasi dan menyelesaikan masalahmu terkait Sekolah Vokasi IPB kapanpun dan dimanapun. Salam kenal ya.",
+              "Kamu bisa panggil aku VokaBot. Asisten AI yang siap 24/7 buat ngasih kamu informasi dan nyelesain masalah seputar Sekolah Vokasi IPB. Apa ada yang perlu ku bantu?"
+          ]
+        },
+        {
+          "tag": "pencipta-vokabot",
+          "patterns": [
+              "Siapa yang bikin kamu?",
+              "Siapa penciptamu?",
+              "Siapa yang ngembangin kamu?",
+              "Siapa pengembangmu?",
+              "Kamu dikembangkan oleh siapa?",
+              "Kamu dikembangin siapa?",
+              "Kamu dibuat oleh siapa?",
+              "Siapa yang buat kamu?",
+              "Siapa yang ciptain kamu?",
+              "Siapa nama developer yang bikin kamu?",
+              "Siapa programmer yang bikin kamu?",
+              "Kamu dibikin siapa?",
+              "Siapa pembuatmu?",
+              "Siapa yang bertanggung jawab atas kamu?",
+              "Siapa yang ngajarin kamu?",
+              "Siapa gurumu?",
+              "Siapa yang ciptain kamu?"
+          ],
+          "responses": [
+              "Saya dikembangkan oleh seorang programmer dan data scientist bernama Rafli Damara.",
+              "Saya dikembangkan oleh Rafli Damara, yang merupakan seorang programmer dan juga data scientist.",
+              "Saya diprogram oleh seorang programmer dan juga data scientist yang bernama Rafli Damara."
+          ]
+        },
+        {
+          "tag": "kemampuan-vokabot",
+          "patterns": [
+              "Kamu bisa ngapain aja?",
+              "Apa saja yang bisa kamu lakukan?",
+              "Apa yg bisa kamu lakukan?",
+              "Bisa apa aja kamu?",
+              "Apa yang kamu bisa?",
+              "Apa saja yang dapat kamu lakukan?",
+              "Apa fungsi kamu?",
+              "Sebutkan kemampuanmu",
+              "Sebutkan apa yang kamu bisa",
+              "Kamu bisa ngapain aja?",
+              "Bisa ngapain aja?",
+              "Apa yang bisa kamu bantu?",
+              "Kamu bisa bantu apa?",
+              "Emang kamu bisa apa?",
+              "Bisa apa aja?",
+              "Apa aja yang bisa kamu bantu?",
+              "Apa aja kemampuanmu?",
+              "Kemampuan",
+              "Kamu bisa apa?",
+              "Apa saja kemampuanmu?",
+              "Emang kamu bisa apa?",
+              "Kemampuan mu",
+              "Kemampuanmu"
+          ],
+          "responses": [
+              "Sebagai seorang Asisten AI, aku bisa bantu kamu dengan banyak hal terkait Sekolah Vokasi IPB. KTM kamu hilang? Mau ngajuin cuti? Bingung cara bikin pengajuan surat magang? Butuh surat keterangan aktif mahasiswa? Aku siap bantu kamu menyelesaikan semua masalah tersebut dan memberikan informasinya untuk kamu. Tertarik mencoba?",
+              "Aku bisa bantu kamu menyelesaikan masalah dan memberikan informasi terkait dengan Sekolah Vokasi IPB, seperti mekanisme pengajuan cuti, pengajuan kehilangan KTM, alur pengajuan surat magang, dan berbagai informasi lainnya. Aku siap membantu kamu selama 24 jam penuh. Apakah ada hal yang ingin ku bantu?",
+              "Sebagai Asisten AI, saya dapat memberikan dukungan dan informasi terkait berbagai hal di Sekolah Vokasi IPB, termasuk pengurusan KTM hilang, pengajuan cuti, surat magang, surat keterangan aktif mahasiswa, dan masih banyak lagi hal lainnya. Apakah kamu tertarik untuk mencobanya?"
+          ]
+        },
+        {
+            "tag": "lokasi-sv",
+            "patterns": [
+                "Dimana lokasi sekolah vokasi?",
+                "Ada dimana sekolah vokasi?",
+                "Lokasi",
+                "Dimana lokasi Sekolah Vokasi IPB?",
+                "Dimana lokasi sv?",
+                "Dimana lokasi sv ipb?",
+                "Tolong berikan lokasi Sekolah vokasi",
+                "Di mana letak Sekolah Vokasi IPB?",
+                "Alamat Sekolah Vokasi IPB?",
+                "Sekolah Vokasi IPB berada di mana?",
+                "Dimana sekolah vokasi berada?",
+                "Alamat",
+                "Alamat sv ipb",
+                "Berikan lokasi sekolah vokasi ipb",
+                "Alamat sekolah vokasi ipb",
+                "SV ipb berada dimana?",
+                "Berikan alamat sekolah vokasi",
+                "Dimana alamat sekolah vokasi ipb?",
+                "Dimana alamat sv ipb",
+                "Alamat kampus sekolah vokasi",
+                "Alamat kampus SV IPB",
+                "Dimana kampus SV IPB?",
+                "Dimana kampus",
+                "Dimana alamat kampus"
+            ],
+            "responses": [
+                "Sekolah Vokasi IPB memiliki 2 kampus di 2 kota yang berbeda. Kampus pertama berada di Kota Bogor, terletak di Jl. Kumbang No. 14, Babakan, Kota Bogor. Sementara itu, kampus kedua berada di Kota Sukabumi, terletak di Jl. Babakan Sirna No. 25 Benteng, Kota Sukabumi. Semoga informasi tersebut membantu kamu ya.",
+                "Kampus utama Sekolah Vokasi IPB terletak di jantung Kota Bogor, tepatnya di Jalan Kumbang Nomor 14, Kelurahan Babakan. Lokasi ini strategis dan mudah diakses, menjadikannya pilihan ideal bagi calon mahasiswa dari berbagai wilayah di sekitar Bogor. Sementara itu, untuk menjangkau daerah yang lebih luas, Sekolah Vokasi IPB juga memiliki kampus cabang di Kota Sukabumi. Kampus Sukabumi beralamat di Jalan Babakan Sirna Nomor 25, Kelurahan Benteng. Semoga membantu ya.",
+                "Sekolah Vokasi IPB menawarkan program pendidikan vokasi di dua kampus. Kampus pertama berada di Bogor, beralamat di Jl. Kumbang No. 14, Babakan. Kampus kedua terletak di Sukabumi, di Jl. Babakan Sirna No. 25, Benteng. Semoga informasi tersebut bisa menjawab pertanyaan kamu ya."
+            ]
+        },
+        {
+            "tag": "tentang-prodi",
+            "patterns": [
+                "Ada berapa prodi",
+                "Ada prodi apa aja",
+                "Ada prodi apa",
+                "Ada prodi apa saja",
+                "Berapa banyak prodi",
+                "Apa aja prodi",
+                "Apa saja prodi yang ada",
+                "Sekolah vokasi punya berapa prodi",
+                "Jelaskan prodi",
+                "Prodi",
+                "Program studi",
+                "Jurusan",
+                "Ada berapa program studi",
+                "Program studi apa saja",
+                "Ada berapa jurusan",
+                "Jurusan di Sekolah Vokasi",
+                "Tentang prodi",
+                "Tentang program studi",
+                "Tentang jurusan",
+                "Apa saja program studi",
+                "program studi sekolah vokasi",
+                "Jumlah prodi di sekolah vokasi",
+                "Program studi di vokasi"
+            ],
+            "responses": [
+                "Sekolah Vokasi IPB memiliki 16 program studi dari berbagai lingkup bidang yang berbeda. Berikut adalah daftar program studi yang tersedia di Sekolah Vokasi IPB:\n\n* Komunikasi Digital dan Media\n* Ekowisata\n* Teknologi Rekayasa Perangkat Lunak\n* Teknologi Rekayasa Komputer\n* Supervisor Jaminan Mutu Pangan\n* Manajemen Industri Jasa Makanan dan Gizi\n* Teknologi Industri Benih (D3)\n* Teknologi dan Manajemen Pembenihan Ikan\n* Teknologi dan Manajemen Ternak\n* Manajemen Agribisnis\n* Manajemen Industri\n* Analisis Kimia\n* Teknik dan Manajemen Lingkungan\n* Akuntansi\n* Paramedik Veteriner\n* Teknologi Produksi dan Manajemen Perkebunan\n* Teknologi Produksi dan Pengembangan Masyarakat Pertanian\n\nUntuk informasi lebih lanjut, kamu bisa mengunjungi website Sekolah Vokasi IPB melalui link [berikut ini](https://sv.ipb.ac.id/program-studi-2024/). Semoga informai tersebut bisa membantu kamu ya."
+            ]
+        },
+        {
+            "tag": "fasilitas",
+            "patterns": [
+                "Fasilitas",
+                "Fasilitas sv",
+                "Fasilitas Sekolah Vokasi",
+                "Fasilitas Vokasi",
+                "Fasilitas Sekolah Vokasi IPB",
+                "Fasilitas SV IPB",
+                "Fasilitas apa saja yang ada di Sekolah Vokasi IPB?",
+                "Ada fasilitas apa aja?",
+                "Fasilitas apa aja yang dimiliki?",
+                "Sebutkan fasilitas yang ada",
+                "Kasih tau saya tentang fasilitas",
+                "Ada berapa fasilitas di vokasi?",
+                "Fasilitas di SV IPB keren gak sih?",
+                "Gimana fasilitasnya di Sekolah Vokasi IPB?",
+                "Fasilitas di vokasi IPB lengkap gak ya?",
+                "Apa aja sih yang ada di kampus Vokasi IPB?",
+                "Kasih informasi tentang fasilitas sekolah vokasi ipb",
+                "Beritahu saya tentang fasilitas sekolah vokasi ipb"
+            ],
+            "responses": [
+                "Sebagai salah satu kampus unggulan, Sekolah Vokasi IPB menyediakan berbagai fasilitas yang mendukung proses pembelajaran baik akademik maupun non-akademik para mahasiswa. Mulai dari lab komputer, lab pengujian, green house, berbagai peternakan, perpustakaan, klinik hewan, dan lain lain. Tidak hanya itu, Sekolah Vokasi IPB juga menyediakan berbagai fasilitas pendukung seperti mini teather, masjid, kantin, klinik, collaborative room, dan masih banyak lagi. Semoga informasi tersebut membantu ya.",
+                "Sekolah Vokasi IPB menawarkan berbagai fasilitas untuk menunjang kegiatan belajar dan kehidupan mahasiswa. Contohnya, laboratorium komputer yang canggih, green house untuk praktikum pertanian, peternakan untuk pembelajaran peternakan, perpustakaan yang lengkap, dan klinik hewan yang modern. Selain itu, tersedia juga fasilitas pendukung seperti masjid, kantin, dan ruang kolaborasi. Apa ada hal lainnya yang bisa ku bantu?",
+                "Hai mahasiswa dan calon mahasiswa! Di Sekolah Vokasi IPB, kamu akan menemukan berbagai fasilitas yang mendukung proses belajarmu. Dari lab komputer dan lab pengujian sampai green house, peternakan, perpustakaan, dan klinik hewan, semuanya tersedia. Selain itu, ada juga mini teater, masjid, kantin, klinik, dan ruang kolaborasi untuk membuat pengalaman kuliahmu lebih nyaman dan menyenangkan! Semoga informasi ini membantu kamu ya."
+            ]
+        },
+        {
+            "tag": "ukt",
+            "patterns": [
+                "ukt",
+                "ukt sv",
+                "ukt sekolah vokasi",
+                "ukt sekolah vokasi ipb",
+                "ukt vokasi",
+                "berapa ukt",
+                "berapa biaya kuliah",
+                "berapa ukt sekolah vokasi ipb?",
+                "uang kuliah",
+                "berapa uang kuliah",
+                "uang kuliah vokasi",
+                "uang kuliah vokasi ipb",
+                "berapa harga ukt",
+                "besaran ukt",
+                "beritahu saya berapa ukt",
+                "jelaskan terkait ukt"
+            ],
+            "responses": [
+                "Hai! untuk bisa mendapatkan informasi seputar rincian biaya pendidikan Sekolah Vokasi IPB, kamu bisa mengakses link https://admisi.ipb.ac.id/biaya-pendidikan-2024 agar kamu mendapatkan informasi yang lebih detail dan lengkap. Semoga informasi ini dapat membantu kamu yaa.",
+                "Hai! Biaya pendidikan di Sekolah Vokasi IPB tahun 2024 berbeda-beda tergantung jalur masuk (SNBP, SNBT, Seleksi Mandiri, Kerjasama/BUD). Untuk mendapatkan informasi yang paling akurat dan detail mengenai biaya UKT dan BPIF untuk masing-masing program studi dan jalur masuk, silakan kunjungi website resmi IPB di link ini: https://admisi.ipb.ac.id/biaya-pendidikan-2024. Ingat ya, biaya ini bisa berubah, jadi selalu cek informasi terbaru sebelum mendaftar.",
+                "Hai! Buat kamu yang mau tau detail biaya kuliah di Sekolah Vokasi IPB tahun 2024, langsung aja klik link ini: https://admisi.ipb.ac.id/biaya-pendidikan-2024. Di sana, kamu bisa lihat rinciannya, termasuk Uang Kuliah Tunggal (UKT) per semester untuk setiap program studi, dan juga informasi tentang Biaya Pengembangan Institusi dan Fasilitas (BPIF) jika dibutuhkan. Jangan lupa, biaya ini bisa berubah sewaktu-waktu, jadi pastikan kamu cek informasi terbarunya di link tersebut ya!"
+            ]
+        },
+        {
+            "tag": "ktm-hilang",
+            "patterns": [
+                "ktm hilang",
+                "ktm saya hilang",
+                "bagaimana cara mengurus ktm yang hilang",
+                "bagaimana jika ktm saya hilang",
+                "ktm ku hilang",
+                "aku kehilangan ktm",
+                "saya kehilangan ktm",
+                "bagaimana mengurus ktm hilang",
+                "mengajukan kehilangan ktm",
+                "cara mengganti ktm yang hilang",
+                "ktm yang hilang",
+                "mengurus kehilangan ktm",
+                "mengurus penggantian ktm",
+                "penggantian ktm",
+                "mengajukan ktm sementara",
+                "ktm sementara",
+                "gimana kalo ktm hilang",
+                "bagaimana kalau ktm hilang",
+                "gimana kalau kehilangan ktm",
+                "solusi kt hilang",
+                "saya kehilangan KTM, apa yang harus saya lakukan?",
+                "apa yang harus dilakukan jika ktm hilang",
+                "urus ktm hilang",
+                "saya butuh KTM sementara",
+                "aku butuh ktm sementara",
+                "butuh ktm sementara",
+                "Gimana cara bikin KTM sementara",
+                "proses penggantian ktm",
+                "kehilangan ktm",
+                "hilang ktm"
+            ],
+            "responses": [
+                "KTM kamu hilang? Jangan panik dan gelisah yaaa. Aku bakal bantu arahin kamu buat ngajuin penggantian KTM milikmu yang hilang. Hal pertama yang perlu kamu lakukan adalah mendatangi kantor polisi terdekat dan mengajukan surat keterangan kehilangan KTM milikmu. Berikutnya, siapkan juga bukti pembayaran UKT mu yang saat ini sedang berjalan. Setelah kedua berkas tersebut siap, kamu bisa mengisi formulir melalui laman https://helpcenter.ipb.ac.id. Pilih topik 'Admin Surat/Dokumen APPMB', lalu lampirkan berkas yang telah kamu persiapkan sebelumnya. Selain berkas tersebut, kamu juga akan diminta mengisi data diri seperti nama, NIM, tempat tanggal lahir, departemen, fakultas, tingkat semester, alamat, dan juga alasan pengajuan penggantian KTM.\n\n Pihak kampus akan segera memproses laporanmu selama periode hari kerja. Setelah itu, kamu akan menerima surat keterangan dari kampus, yang bisa kamu bawa ke bank mitra KTM IPB (BNI/BRI) untuk dilakukan penggantian dan pencetakan ulang KTM oleh pihak bank tersebut. Surat keterangan dari kampus tersebut juga dapat digunakan sebagai KTM sementara jika kamu membutuhkan KTM selama periode UTS/UAS maupun untuk keperluan lainnya.",
+                "Kehilangan KTM? Tenang saja!  Ikuti langkah ini untuk mendapatkan pengganti:  Pertama, minta surat keterangan kehilangan KTM di kantor polisi terdekat.  Kedua, siapkan bukti pembayaran UKT kamu yang aktif.  Setelah itu, isi formulir penggantian KTM di https://helpcenter.ipb.ac.id; pilih 'Admin Surat/Dokumen APPMB', lalu lampirkan surat keterangan kehilangan dan bukti pembayaran UKT.  Kamu juga perlu memasukkan data diri (nama, NIM, tanggal lahir, departemen, fakultas, semester, alamat, dan alasan kehilangan).  Kampus akan memproses permohonan kamu pada hari kerja.  Setelahnya, kamu akan menerima surat keterangan dari kampus.  Bawa surat ini ke bank mitra KTM IPB (BNI/BRI) untuk mencetak ulang KTM.  Surat tersebut juga berlaku sebagai KTM sementara, terutama saat UTS/UAS atau keperluan mendesak lainnya.",
+                "Kehilangan KTM? Tenang!  Untuk mendapatkan pengganti, pertama-tama, kamu perlu mendapatkan surat keterangan kehilangan dari kantor polisi terdekat.  Setelah itu, siapkan bukti pembayaran UKT kamu yang terbaru.  Dengan kedua dokumen tersebut, masuk ke laman https://helpcenter.ipb.ac.id dengan akun IPB kamu, buat tiket baru, lalu pilih 'Admin Surat/Dokumen APPMB' dan unggah kedua dokumen tersebut.  Isi juga formulir dengan data diri kamu: nama, NIM, tanggal lahir, departemen, fakultas, semester, alamat, dan alasan kehilangan KTM.  Pihak kampus akan memproses permohonan kamu pada hari kerja.  Setelahnya, kamu akan menerima surat keterangan yang bisa kamu gunakan sebagai KTM sementara dan untuk mencetak KTM baru di bank BNI atau BRI. Surat ini sangat membantu selama proses penggantian, terutama saat UTS/UAS atau keperluan lain yang membutuhkan KTM."
+            ]
+        },
+        {
+            "tag": "profil-medha",
+            "patterns": [
+                "siapa itu bu medha",
+                "siapa itu ibu medha",
+                "medha",
+                "ibu medha",
+                "bu medha",
+                "Medhanita Dewi Renanti",
+                "apa kamu kenal bu medha?",
+                "kamu kenal bu medha?",
+                "jelaskan tentang bu medha",
+                "beri informasi tentang bu medha",
+                "ceritakan siapa bu medha",
+                "jelaskan siapa bu medha",
+                "medhanita dewi",
+                "Apakah ada dosen yang bernama bu medha?",
+                "apakah kamu tau bu medha?",
+                "apa yang kamu ketahui tentang bu medha?",
+                "siapa bu medha?",
+                "berikan informasi terkait bu medha",
+                "apakah kamu kenal bu medha?"
+            ],
+            "responses": [
+                "Medhanita Dewi Renanti, S.Kom, M.Kom, atau yang akrab disapa Bu Medha merupakan seorang dosen Sekolah Vokasi Institut Pertanian Bogor sekaligus Kepala Program Studi untuk jurusan Teknologi Rekayasa Perangkat Lunak. Beliau terkenal dengan aplikasi penerjemah tangis ciptaannya yang bernama Madzas, yang ia ciptakan untuk memudahkan para ibu muda yang dianggap masih sulit mengurus bayi. Pada tahun 2019, beliau pernah menjadi pemenang anugerah inovasi Jawa Barat, dan dosen berprestasi kategori the most inspiring inovator tingkat IPB. Beliau juga pernah menjadi narasumber di berbagai media elektronik maupun cetak, seperti Trans7, Green TV, RRI, radio MSK, CNN, BeritaSatu, Gatra, MNC, Tempo, JawaPos, serta Radar. Sosok kelahiran Banyuawangi, Jawa Timur ini dianggap oleh banyak orang sebagai inspirasi berkat terobosannya di dunia teknologi dan juga pendidikan. Sampai saat ini, beliau masih aktif sebagai dosen dan pengajar di Sekolah Vokasi IPB untuk terus menyebarkan ilmu dan pengalaman yang ia miliki kepada para mahasiswa didikannya.",
+                "Medhanita Dewi Renanti, S.Kom., M.Kom., yang dikenal sebagai Bu Medha, adalah dosen Sekolah Vokasi Institut Pertanian Bogor (IPB) dan Kepala Program Studi Teknologi Rekayasa Perangkat Lunak. Ia terkenal berkat aplikasi Madzas, sebuah penerjemah tangis bayi yang dirancang untuk membantu ibu muda. Prestasi Bu Medha meliputi penghargaan Anugerah Inovasi Jawa Barat (2019) dan penghargaan Dosen Berprestasi IPB kategori 'The Most Inspiring Innovator'. Ia juga sering menjadi narasumber di berbagai media, termasuk Trans7, Green TV, RRI, radio MSK, CNN, BeritaSatu, Gatra, MNC, Tempo, JawaPos, dan Radar. Bu Medha, yang lahir di Banyuwangi, Jawa Timur, dianggap sebagai inspirasi karena kontribusinya di bidang teknologi dan pendidikan. Saat ini, ia masih aktif mengajar di Sekolah Vokasi IPB, berbagi ilmu dan pengalaman kepada mahasiswanya.",
+                "Medhanita Dewi Renanti, S.Kom., M.Kom., atau Bu Medha, adalah dosen dan Kepala Program Studi Teknologi Rekayasa Perangkat Lunak di Sekolah Vokasi IPB. Ia dikenal luas karena menciptakan aplikasi Madzas, sebuah penerjemah tangis bayi yang membantu para ibu muda. Pada 2019, Bu Medha meraih Anugerah Inovasi Jawa Barat dan penghargaan Dosen Berprestasi IPB kategori 'The Most Inspiring Innovator'. Ia juga menjadi narasumber di berbagai media, termasuk Trans7, Green TV, RRI, radio MSK, CNN, BeritaSatu, Gatra, MNC, Tempo, JawaPos, dan Radar. Lahir di Banyuwangi, Jawa Timur, Bu Medha menginspirasi banyak orang lewat terobosan di bidang teknologi dan pendidikan. Hingga kini, ia aktif mengajar di Sekolah Vokasi IPB, membagi ilmu dan pengalamannya kepada mahasiswa."
+            ]
+        },
+        {
+            "tag": "pengajuan-cuti",
+            "patterns": [
+                "mengajukan cuti",
+                "mengajukan cuti kuliah",
+                "pengajuan cuti",
+                "pengajuan cuti kuliah",
+                "cuti",
+                "cuti kuliah",
+                "saya ingin mengajukan cuti kuliah",
+                "saya ingin mengajukan cuti",
+                "saya ingin cuti",
+                "saya mau cuti",
+                "saya mau cuti kuliah",
+                "bagaimana cara mengajukan cuti kuliah",
+                "mengurus pengajuan cuti",
+                "gimana cara cuti kuliah",
+                "gimana caranya ngajuin cuti",
+                "gimana cara ngajuin cuti",
+                "mengurus pengajuan cuti",
+                "mengurus cuti",
+                "aku mau cuti kuliah",
+                "cara cuti kuliah",
+                "bagaimana cara cuti kuliah",
+                "jelaskan bagaimana mengajukan cuti kuliah",
+                "cara ngajuin cuti kuliah",
+                "cara ngajuin cuti",
+                "jelaskan langkah mengajukan cuti kuliah",
+                "surat cuti",
+                "pengajuan surat cuti"
+            ],
+            "responses": [
+                "Untuk mengajukan cuti kuliah di Sekolah Vokasi IPB, persiapkan beberapa dokumen penting. Pertama, unduh dan isi formulir permohonan cuti akademik yang telah ditandatangani. Formulir ini dapat diakses melalui tautan berikut: http://ipb.link/arsipakademiksv. Pastikan untuk memeriksa ketersediaan formulir yang tepat, karena situs tersebut menyediakan berbagai formulir administrasi. Setelah mengisi formulir, siapkan dokumen pendukung yang meliputi bukti pembayaran UKT (Uang Kuliah Tunggal) terbaru, dokumen yang menjelaskan alasan pengajuan cuti secara detail dan meyakinkan, scan Kartu Tanda Mahasiswa (KTM), dan data diri lainnya sesuai yang diminta dalam formulir permohonan. Semua dokumen harus disiapkan dalam format yang sesuai dengan petunjuk yang diberikan. Setelah semua dokumen siap, ajukan permohonan cuti akademik secara resmi melalui tautan formulir online pada tautan [berikut ini](https://docs.google.com/forms/d/e/1FAIpQLSfp1ULlNlWaiwM-QKYHhdc-7PgRqKe7fYaukqpGRqaelTh2ag/viewform). Pastikan untuk mengisi formulir online dengan lengkap dan teliti. Setelah mengirimkan permohonan, pantau perkembangannya melalui jalur komunikasi yang telah ditentukan oleh pihak Sekolah Vokasi IPB. Semoga informasi ini membantu proses pengajuan cuti kuliah kamu.",
+                "Mengajukan cuti kuliah di Sekolah Vokasi IPB membutuhkan persiapan dokumen yang lengkap. Langkah pertama, unduh dan lengkapi formulir permohonan cuti akademik yang sudah ditandatangani dari tautan ini: http://ipb.link/arsipakademiksv. Situs ini menyediakan berbagai formulir, pastikan Anda memilih formulir cuti akademik yang tepat. Selanjutnya, siapkan dokumen pendukung: bukti pembayaran UKT terbaru, penjelasan rinci dan meyakinkan mengenai alasan cuti, scan KTM, dan data pribadi lainnya sesuai permintaan formulir. Perhatikan format dokumen sesuai petunjuk yang diberikan. Setelah semua dokumen siap, ajukan permohonan cuti secara resmi melalui formulir online di tautan [berikut ini](https://docs.google.com/forms/d/e/1FAIpQLSfp1ULlNlWaiwM-QKYHhdc-7PgRqKe7fYaukqpGRqaelTh2ag/viewform). Isi formulir online dengan teliti dan lengkap. Terakhir, pantau perkembangan permohonan melalui jalur komunikasi yang ditetapkan oleh Sekolah Vokasi IPB. Semoga informasi ini membantu proses pengajuan cuti kuliahmu.",
+                "Proses pengajuan cuti kuliah di Sekolah Vokasi IPB memerlukan beberapa langkah.  Pertama, unduh formulir permohonan cuti akademik yang sudah ditandatangani dari tautan ini: http://ipb.link/arsipakademiksv.  Pastikan Anda mengunduh formulir yang benar karena situs tersebut menyediakan berbagai formulir administrasi.  Setelah mengisi formulir, kumpulkan dokumen pendukung, termasuk bukti pembayaran UKT terbaru, penjelasan rinci alasan cuti, scan KTM, dan data pribadi lainnya sesuai petunjuk di formulir.  Semua dokumen harus sesuai format yang ditentukan.  Selanjutnya, ajukan permohonan secara resmi melalui formulir online di tautan [berikut ini](https://docs.google.com/forms/d/e/1FAIpQLSfp1ULlNlWaiwM-QKYHhdc-7PgRqKe7fYaukqpGRqaelTh2ag/viewform). Isi formulir online dengan lengkap dan teliti.  Terakhir, lacak perkembangan permohonan melalui jalur komunikasi yang telah ditetapkan oleh Sekolah Vokasi IPB.  Semoga informasi ini membantu kamu dalam mengajukan cuti kuliah."
+            ]
+        },
+        {
+            "tag": "surat-aktif-mahasiswa",
+            "patterns": [
+                "saya ingin mengajukan surat keterangan aktif mahasiswa",
+                "ingin mengajukan surat keterangan aktif mahasiswa",
+                "surat keterangan aktif mahasiswa",
+                "surat keterangan aktif",
+                "saya membutuhkan surat keterangan aktif mahasiswa",
+                "bagaimana cara mengajukan surat keterangan aktif mahasiswa?",
+                "jelaskan cara mengajukan surat keterangan aktif mahasiswa",
+                "pengajuan surat keterangan aktif mahasiswa",
+                "apa yang harus saya lakukan untuk mengajukan surat keterangan aktif mahasiswa",
+                "bagaimana langkah mengajukan surat keterangan aktif mahasiswa",
+                "beri panduan cara mengajukan surat keterangan aktif mahasiswa",
+                "ajarin cara ngajuin surat keterangan aktif mahasiswa",
+                "bagaimana mekanisme pengajuan surat keterangan aktif mahasiswa?",
+                "Cara mendapatkan surat keterangan aktif mahasiswa",
+                "dimana saya bisa mengajukan surat keterangan aktif mahasiswa?",
+                "memerlukan surat keterangan aktif mahasiswa",
+                "Syarat dan ketentuan pengajuan surat keterangan aktif mahasiswa",
+                "Prosedur pengajuan surat keterangan aktif mahasiswa di IPB",
+                "beritahu saya cara mengajukan surat keterangan aktif mahasiswa",
+                "berikan informasi terkait pengajuan surat keterangan aktif mahasiswa",
+                "gimana cara ngajuin surat keterangan aktif mahasiswa?",
+                "butuh surat keterangan aktif mahasiswa"
+            ],
+            "responses": [
+                "Untuk mendapatkan surat keterangan aktif mahasiswa di Sekolah Vokasi IPB, kamu perlu melengkapi formulir online dengan data diri dan data orang tua. Data diri yang dibutuhkan meliputi nama lengkap, Nomor Induk Mahasiswa (NIM), alamat lengkap, semester saat ini, alamat surel (email), dan uraian singkat mengenai keperluan surat keterangan aktif mahasiswa (misalnya, untuk keperluan beasiswa, sebutkan nama beasiswanya). Sementara itu, data orang tua meliputi nama lengkap ayah dan ibu, nomor kontak orang tua (telepon/HP), serta nama dan alamat perusahaan/instansi tempat orang tua bekerja. Pastikan semua informasi yang kamu berikan akurat dan lengkap. Formulir online dapat diakses melalui tautan [berikut ini](https://docs.google.com/forms/d/e/1FAIpQLSe0ndjGoFKOuXXuYnfo5Ygjxc9FeG57-TKDrZ_IKfX2F9Igbw/viewform). Isi formulir dengan teliti dan cermat sebelum mengirimkan. Setelah mengirimkan formulir, pantau perkembangan pengajuanmu melalui jalur komunikasi yang telah ditentukan oleh pihak Sekolah Vokasi IPB. Semoga jawabanku membantu!",
+                "Untuk mendapatkan Surat Keterangan Aktif Mahasiswa di Sekolah Vokasi IPB, lengkapi formulir online dengan data diri dan data orang tuamu. Data diri yang dibutuhkan meliputi nama lengkap, NIM, tempat lahir, program studi, semester saat ini, nomor handphone, alamat surel (email), dan uraian singkat mengenai keperluan surat keterangan aktif mahasiswa. Sebutkan nama beasiswa jika pengajuan terkait beasiswa. Data orang tua meliputi nama lengkap ayah dan ibu, nomor kontak mereka, serta nama dan alamat perusahaan/instansi tempat mereka bekerja. Setelah semua data terkumpul, isi formulir online yang tersedia di tautan [berikut ini](https://docs.google.com/forms/d/e/1FAIpQLSe0ndjGoFKOuXXuYnfo5Ygjxc9FeG57-TKDrZ_IKfX2F9Igbw/viewform). Pastikan kamu mengisi formulir dengan teliti dan akurat sebelum mengirimkan. Periksa kembali semua data sebelum mengirimkan formulir untuk menghindari kesalahan.",
+                "Untuk mendapatkan Surat Keterangan Aktif Mahasiswa dari Sekolah Vokasi IPB, kamu perlu mengisi formulir online dengan data diri dan informasi orang tua.  Data diri yang dibutuhkan meliputi nama lengkap, NIM, tempat lahir, program studi, semester saat ini, nomor telepon, alamat email, dan penjelasan singkat mengenai tujuan pengajuan surat keterangan.  Jika pengajuan terkait beasiswa, sebutkan nama beasiswanya.  Data orang tua meliputi nama lengkap ayah dan ibu, nomor telepon mereka, serta nama dan alamat perusahaan/instansi tempat mereka bekerja.  Setelah mengumpulkan semua data, akses formulir online melalui tautan [berikut ini](https://docs.google.com/forms/d/e/1FAIpQLSe0ndjGoFKOuXXuYnfo5Ygjxc9FeG57-TKDrZ_IKfX2F9Igbw/viewform).  Isi formulir dengan cermat dan teliti. Pastikan semua informasi yang kamu berikan akurat dan lengkap sebelum mengirimkan formulir."
+            ]
+        }
+        
+    ]
+}
