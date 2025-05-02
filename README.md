@@ -56,8 +56,7 @@ We welcome contributions to this project. Please follow these steps to contribut
 
 ## Reference
 
-Meme, T. (2024). *Building a Chatbot with Python*. Codepolitan.
-https://www.codepolitan.com/blog/membangun-chatbot-dengan-python
+Meme, T. (2024). *Building a Chatbot with Python*. Codepolitan. [Click here](https://www.codepolitan.com/blog/membangun-chatbot-dengan-python)
 
 ## Copyright
 
