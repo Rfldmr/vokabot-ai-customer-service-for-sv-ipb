@@ -14,11 +14,11 @@
 
 ## Overview
 
-SMARE AI is an AI-based automatic report generation system for water quality testing certification. Supported by the Gradient Booster algorithm, SMARE AI can predict water quality categories with test result data inputted by users and automatically generate test certificate reports in PDF format.
+VokaBot is a simple AI-based customer service chatbot designed to provide information and answer questions related to IPB Vocational School. Built using the TensorFlow framework and utilizing the NLTK library for natural language processing (NLP), VokaBot is able to understand and respond to questions by utilizing a trained deep learning model.
 
 ## Project Link
 
-[Click here](https://smare-ai.streamlit.app/) to take you to the SMARE AI project website.
+[Click here](https://vokabot.streamlit.app/) to take you to the VokaBot AI project website.
 
 ## Features
 
