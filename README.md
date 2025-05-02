@@ -64,7 +64,7 @@ We welcome contributions to this project. Please follow these steps to contribut
 
 ## Reference
 
-Membangun Chatbot dengan Python (2021). Codepolitan. Oleh Today Meme.
+Building a Chatbot with Python (2021). Codepolitan. By Today Meme.
 https://www.codepolitan.com/blog/membangun-chatbot-dengan-python
 
 ## Copyright
