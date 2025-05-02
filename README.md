@@ -23,8 +23,8 @@ VokaBot is a simple AI-based customer service chatbot designed to provide inform
 ## Features
 
 - Answer your questions automatically and naturally.
-- Has the latest information even though some topics are incomplete because they are still in beta version.
-- Always available 24/7 without time limits and questions.
+- There are no limits and quotas for asking questions. Ask as much as you like.
+- Always ready 24/7 anytime and anywhere without operating hours.
 
 ## Tech Stack
 
