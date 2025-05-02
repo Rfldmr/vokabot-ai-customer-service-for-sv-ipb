@@ -49,7 +49,7 @@ We welcome contributions to this project. Please follow these steps to contribut
 4. **Install the Streamlit framework with the following command** (`pip install streamlit`).
 5. **Run the following command to run the program on localhost** (`python -m streamlit run app.py`).
 
-## Model Metrics & Confusion Matrix
+## Model Evaluation
 
 - Accuracy score: 0.9952
 - Loss: 0.0068
