@@ -37,12 +37,7 @@ VokaBot is a simple AI-based customer service chatbot designed to provide inform
   
 ## Dataset
 
-[Click here](https://drive.google.com/drive/folders/187IDqx69aEmxg5I9n4lfnlSLM2MbENEh?usp=sharing) or check the "Dataset" folder in the repository to access the dataset.
-
-<br>
-
-Credits to the original dataset owner:
-- Aditya, K. (2021). Water Quality.
+No dataset is used. The data source is a json file containing a collection of self-built conversations.
 
 ## How to Use This Code?
 
@@ -66,6 +61,10 @@ We welcome contributions to this project. Please follow these steps to contribut
 - **Confusion Matrix**
 
 <img src ="./Asset/confusionmatrix.png" width="40%">
+
+## Reference
+
+Today Meme, "Membangun Chatbot dengan Python," Codepolitan, 2021, https://www.codepolitan.com/blog/membangun-chatbot-dengan-python/
 
 ## Copyright
 
