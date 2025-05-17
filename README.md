@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<h2>💬 VokaBot: AI Customer Service for SV-IPB</h2>
+<h2>VokaBot: AI Customer Service for SV-IPB</h2>
 
 <br>
 
